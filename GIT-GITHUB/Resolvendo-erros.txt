@@ -1,0 +1,7 @@
+Everything up-to-date
+
+git reset --hard [sua branch]
+git add .
+git commit -m "...blablabla"
+git push origin [sua branch]
+----------------------------------------------
