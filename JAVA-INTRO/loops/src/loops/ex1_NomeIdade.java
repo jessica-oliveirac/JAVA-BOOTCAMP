@@ -23,7 +23,6 @@ public class ex1_NomeIdade {
 		}
 		System.out.println("Continua aqui...");
 		
-		Scanner.scan.close();
 	}
 	
 }
