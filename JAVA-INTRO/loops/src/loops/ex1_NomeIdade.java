@@ -8,17 +8,18 @@ import java.util.Scanner;
 public class ex1_NomeIdade {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		//Scanner scan = new Scanner(System.in);
 		
 		String nome;
-		int idade;
-		
+		//int idade;
+
 		while(true) {
 		System.out.print("Nome: ");
-		nome = scan.next();
+		nome = new Scanner(System.in).next();
 		if (nome.equals("0")) break;
+		
 		System.out.print("Idade: ");
-		idade = scan.nextInt();
+		int idade = scan.nextInt();
 		}
 		System.out.println("Continua aqui...");
 	}
