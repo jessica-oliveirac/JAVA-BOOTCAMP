@@ -21,6 +21,8 @@ public class nota {
 			System.out.println("Nota Inválida! Digite novamente: ");
 			nota = scan.nextInt();
 		}
+		
+		scan.close();
 	}
 
 }

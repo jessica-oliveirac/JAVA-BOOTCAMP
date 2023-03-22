@@ -31,6 +31,8 @@ public class maiorMedia {
 		media = soma/5;
 		System.out.print("Maior: " + maior);
 		System.out.println("\nMedia: " + media);
+		
+		scan.close();
 	}
 
 }
