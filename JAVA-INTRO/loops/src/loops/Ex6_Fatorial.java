@@ -21,6 +21,8 @@ public class Ex6_Fatorial {
 			multiplicacao = multiplicacao * i;
 		}
 		System.out.print(multiplicacao);
+		
+		scan.close();
 	}
 
 }

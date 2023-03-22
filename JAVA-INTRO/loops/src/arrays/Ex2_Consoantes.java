@@ -39,6 +39,7 @@ public class Ex2_Consoantes {
 		}
 		System.out.println("Quantide de consoantes: " + quantidadeConsoantes);
 		System.out.print(consoantes.length);
+		scan.close();
 	}
 
 }

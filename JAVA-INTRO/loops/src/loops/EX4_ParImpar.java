@@ -30,7 +30,7 @@ public class EX4_ParImpar {
 
 		System.out.println("Quantidade Par: " + quantPares);
 		System.out.println("Quantidade Impar: " + quantImpares);
-		
+		scan.close();
 	}
 
 }
