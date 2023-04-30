@@ -7,30 +7,30 @@ import java.util.Scanner;
 public class teste {
 	
   public static void main(String[] args) throws IOException {
-     Scanner leitor = new Scanner(System.in);
+	  Scanner leitor = new Scanner;
      int cont = 0;
      int valorPositivo = 0;
-     double media = 0.0;
-     double numero = 0.0;
+     double media = 0;
+     double x ;
      double soma = 0.0;
 
      //TODO: Implemente as condições adequadas para obter a quantidade 
     //de valores positivos e a média dos valores positivos:
-        for (cont=1;cont<=6;cont++) {
-        	System.out.println("Número: ");
-        	numero = leitor.nextDouble();
+        while (cont<6) {
+        	Scanner leitor = new Scanner(System.in);
+      
+        	x = new leitor.nextDouble();
         	
-        	if (numero>0.0) {
-        	  valorPositivo++;
-          	soma = soma +  numero;
+        	if (x>0) {
+        	  double valoresPositivos =+ x;
         	}
-        	
+        	cont++;
         }
         
         media = soma/valorPositivo;
         System.out.println("Quantidade de valores positivos: " + valorPositivo);
         System.out.println(String.format("%.1f", media));
-        //leitor.close();
+    
     }
 	
 }
