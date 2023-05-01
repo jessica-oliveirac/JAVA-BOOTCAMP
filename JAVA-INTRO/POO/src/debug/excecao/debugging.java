@@ -1,7 +1,6 @@
 package debug.excecao;
 
 public class debugging {
-
 	public static void main(String[] args) {
 		System.out.println("Iniciou do programa ao método main.");
 		a();
@@ -16,7 +15,8 @@ public class debugging {
 	
 	static void b() {
 		System.out.println("Entrou no método b.");
-		for(int i = 0; i<= 4; i++) System.out.println(i);
+		for(int i = 0; i<= 4; i++) 
+			System.out.println(i);
 		c();
 		System.out.println("Finalizou o método b.");
 	}
