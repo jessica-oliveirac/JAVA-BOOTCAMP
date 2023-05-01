@@ -5,3 +5,5 @@ git add .
 git commit -m "...blablabla"
 git push origin [sua branch]
 ----------------------------------------------
+Erro: Another git process seems to be running in this repository
+rm -f .git/index.lock
