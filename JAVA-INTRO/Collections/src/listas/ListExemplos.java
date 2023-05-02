@@ -49,7 +49,7 @@ public class ListExemplos {
 		System.out.println("Exiba todas as notas na ordem em que foram informadas: ");
 		for(Double nota : notas) System.out.println(nota);
 		
-		System.out.println("Exiba a terceira nota adicionada: ");
+		System.out.println("Exiba a terceira nota adicionada: " + notas.get(2));
 		System.out.println(notas);
 		
 		System.out.println("Exiba a menor nota: "+ Collections.min(notas));
@@ -87,13 +87,7 @@ public class ListExemplos {
         
         System.out.println("Confira se a lista está vazia: " + notas.isEmpty());
         
-        /*
-        Para você: Resolva esses exercícios utilizando os métodos da implementação LinkedList:
-                System.out.println("Crie uma lista chamada notas2 " +
-                        "e coloque todos os elementos da list Arraylist nessa nova lista: ");
-                System.out.println("Mostre a primeira nota da nova lista sem removê-lo: ");
-                System.out.println("Mostre a primeira nota da nova lista removendo-o: ");
-        */
+
 
 	}
 
