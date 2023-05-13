@@ -1,37 +1,35 @@
 package desafios3;
 
+import java.text.DecimalFormat;
 import desafios1.Scanner;
 
 public class IdadePlanetaria {
 
 	public static void main(String[] args) {
-	
-	    Scanner ler = new Scanner(System.in);
+	    Scanner scanner = new Scanner(System.in);
+	    DecimalFormat saida = new DecimalFormat("0.00");
+	    double idadeTerrestre = scanner.nextDouble();
+	    String planeta = scanner.next();
 	    
-	    System.out.println("Idade terrestre: ");
-	    double idadeTerrestre = ler.nextDouble();
-	    System.out.println("Escolha um planeta: ");
-	    String planeta =ler.next();
-
-	    //TODO: Crie as condições para calcular a idade equivalente de cada planeta.
-
-	    //TODO: Imprima a saída conforme descrito neste desafio.
-		
-	    double idadeJupiter, idadeVenus, idadeMarte;
-	    
-	    if(planeta == "Marte"){
-			    idadeMarte = idadeTerrestre/1.88;
-			    System.out.println("Idade equivalente em Marte: %.2f" + idadeMarte + " anos");
-			}else if(planeta == "Venus"){
-			    idadeVenus = idadeTerrestre/0.62;
-			    System.out.println("Idade equivalente em Venus: %.2f" +idadeVenus +" anos");
-			}else if(planeta == "Jupiter"){
-				idadeJupiter = idadeTerrestre/11.86;
-			    System.out.println("Idade equivalente em Jupiter: %.2f"+ idadeJupiter + " anos");
-			}else{
-			  System.out.println("Planeta invalido");
-			}
-	    ler.close();
+	    double idade=0;
+	    switch(planeta){
+	        case "Marte":
+	          idade = idadeTerrestre/1.88;
+	          System.out.println("Idade equivalente em "+ planeta + ": " + saida.format(idade) + " anos");
+	          break;
+	        case "Venus":
+	            idade = idadeTerrestre/0.62;
+	            System.out.println("Idade equivalente em "+ planeta + ": " + saida.format(idade) + " anos");
+	            break;
+	        case "Jupiter":
+	            idade = idadeTerrestre/11.86;
+	            System.out.println("Idade equivalente em "+ planeta + ": " + saida.format(idade) + " anos");
+	            break;
+	        default :
+	           System.out.println("Planeta invalido."); 
+	           break;
+	    }
+	    scanner.close();
 	}
 
 }
