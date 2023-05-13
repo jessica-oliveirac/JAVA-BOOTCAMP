@@ -17,10 +17,10 @@
 # Desafios 3
 
 * Tráfego de Trânsito
-* Compras na Livraria
-* Idade Planetária
-* Gerenciamento de Loja Geek
-* Mudança para Irlanda
+* Compras na Livraria(*)
+* Idade Planetária(*)
+* Gerenciamento de Loja Geek(*)
+* Mudança para Irlanda(*)
 
 # Desafios Kotlin
 
