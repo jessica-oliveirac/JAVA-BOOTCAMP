@@ -2,7 +2,7 @@ package desafios3;
 
 import desafios1.Scanner;
 
-public class Trafego {
+public class Trafego2 {
 
 	public static void main(String[] args) {
 
