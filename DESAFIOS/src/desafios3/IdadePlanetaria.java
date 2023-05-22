@@ -1,8 +1,7 @@
 package desafios3;
 
 import java.text.DecimalFormat;
-import desafios1.Scanner;
-
+import java.util.Scanner;
 public class IdadePlanetaria {
 
 	public static void main(String[] args) {

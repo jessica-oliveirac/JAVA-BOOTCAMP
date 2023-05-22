@@ -1,17 +1,13 @@
 package desafios3;
 
-import desafios1.Scanner;
-
+import java.util.Scanner;
 public class Trafego2 {
-
 	public static void main(String[] args) {
-
 			Scanner scan = new Scanner(System.in);
 			int numero=0;
 			System.out.println("Sinal: ");
 		    numero = scan.nextInt();
 		    
-
 		    //TODO: Crie as condições necessárias para imprimir cada uma das possíveis saídas.
 		        switch(numero){
 		        case 1:

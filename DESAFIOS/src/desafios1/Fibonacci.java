@@ -16,7 +16,7 @@ public class Fibonacci {
         	System.out.println(proximo);
         	anterior = atual ; 
         	atual =  proximo; 
-	
         }
+        leitor.close();
 	}
 }
