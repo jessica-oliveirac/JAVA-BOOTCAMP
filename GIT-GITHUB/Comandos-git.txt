@@ -25,3 +25,6 @@ Remover diretório
 git rm -r <meu_diretorio>
 git commit -a -m "Removendo diretório"
 git push
+--------------
+rm -rf <pasta_repositório> .git 
+
